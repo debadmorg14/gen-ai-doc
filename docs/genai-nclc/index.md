@@ -1,5 +1,6 @@
 ---
 sidebar_position: 1
+sidebar_label: Introduction
 ---
 
 # Amazon Q - Welcome to a new world of work with Amazon Q
@@ -31,4 +32,7 @@ Customers often want the ability to integrate custom functionalities into the Am
 2.	On the first log in attempt the user is be redirected to the Amazon Cognito log in page for authentication. After successful authentication, the user is redirected back to the chatbot application.
 3.	The custom UI, deployed on EC2, parses the token to obtain the user and group information, as well as the user's question. 
 4.	The UI sends the above information to Amazon Q using the chat_sync boto3 API. AmazonQ return a response containing the answer and the sources used to generate it.
+
+### [sample code](https://github.com/aws-samples/custom-web-experience-with-amazon-q-business/tree/main)
+
 
