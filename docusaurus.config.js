@@ -20,7 +20,7 @@ const config = {
   tagline: 'Gen AI on AWS',
   url: 'https://' + organization + '.github.io',
   // baseUrl: '/', //uncomment for local dev
-  baseUrl: '/${projectName}/',
+  baseUrl: '/gen-ai-doc/',
   trailingSlash: false,
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -55,14 +55,14 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-          `https://github.com/${organization}/${projectName}/tree/main/`,
+          'https://github.com/' + organization + '/' + projectName + '/tree/main/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/${organization}/${projectName}/tree/main/',
+          'https://github.com/' + organization + '/' + projectName + '/tree/main/',
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -126,19 +126,7 @@ const config = {
               },
             ],
           },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
-                label: 'GitHub',
-                href: `https://github.com/${organization}/${projectName}`,
-              },
-            ],
-          },
+          
         ],
         copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
       },
