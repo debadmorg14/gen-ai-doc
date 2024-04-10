@@ -17,7 +17,7 @@ const organization = 'debadmorg14'
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: niceProjectName,
-  tagline: 'Gen AI on AWS',
+  tagline: 'Gen AI on AWS by Deba',
   url: 'https://' + organization + '.github.io',
   // baseUrl: '/', //uncomment for local dev
   baseUrl: '/gen-ai-doc/',
