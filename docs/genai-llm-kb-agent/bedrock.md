@@ -1,13 +1,14 @@
 ---
 sidebar_position: 1
 ---
-# Amazon Bedrock Samples 
+# Amazon Bedrock
 
-This repository contains pre-built examples to help customers get started with the Amazon Bedrock service.
+This Page contain the core feature of Amazon Bedrock service.
 
-## Contents
+## Contents [To be filled]
 
 - Introduction to Bedrock - Learn the basics of the Bedrock service
+- Foundation Model - Learn about differnt Foundation Model
 - Prompt Engineering  - Tips for crafting effective prompts 
 - Bedrock Fine-tuning Fine-tune Bedrock models for your specific use case
 - Generative AI Solutions - Example use cases for generative AI

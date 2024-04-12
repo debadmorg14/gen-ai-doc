@@ -11,13 +11,13 @@ const lightCodeTheme = require('prism-react-renderer').themes.github;
 const darkCodeTheme = require('prism-react-renderer').themes.dracula;
 
 const projectName = 'gen-ai-doc'
-const niceProjectName = 'Gen AI on AWS'
+const niceProjectName = 'Generative AI: The Ultimate Creative Catalyst'
 const organization = 'debadmorg14'
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: niceProjectName,
-  tagline: 'Gen AI on AWS by Deba',
+  tagline: 'Amplifying Human Creativity with Generative AI',
   url: 'https://' + organization + '.github.io',
   // baseUrl: '/', //uncomment for local dev
   baseUrl: '/gen-ai-doc/',
@@ -77,7 +77,7 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'Gen AI for Me',
+        title: 'Gen AI Developer Guide',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
@@ -87,7 +87,7 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'genai-basics',
+            label: 'genai-primitive',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
