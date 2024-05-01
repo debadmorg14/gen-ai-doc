@@ -3,7 +3,11 @@ sidebar_position: 1
 sidebar_label: Introduction
 ---
 
-# Amazon Q - Welcome to a new world of work with Amazon Q
+# Generative AI : Managed services
+
+Offers plug-and-play solutions i.e. RAG in a Box , where with no code low code we can use the power of LLM .
+
+some examples are : 
 
 Amazon Q can help you get fast, relevant answers to pressing questions, solve problems, generate content, and take actions using the data and expertise found in your company's information repositories, code, and enterprise systems. When you chat with Amazon Q, it provides immediate, relevant information and advice to help streamline tasks, speed decision-making, and help spark creativity and innovation at work.
 
@@ -20,6 +24,8 @@ Amazon Q in QuickSight enhances business productivity using Generative BI capabi
 ## Amazon Q  Developer (Accelerate your SDLC)
 
 Amazon Q Developer harnesses cutting-edge generative artificial intelligence (AI) to accelerate your software development lifecycle (SDLC). With deep understanding of your code and AWS resources, it streamlines research, design, coding, testing, debugging, troubleshooting, and modernization. Amazon Q is there to help wherever you need it—in the AWS Management Console, integrated development environment (IDE), AWS documentation, and through Slack and Microsoft Teams.
+
+We will dive deep into each of the servcie : 
 
 
 

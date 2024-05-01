@@ -8,8 +8,8 @@ const FeatureList = [
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        You can simply type or speak queries and instructions to the AI model using normal conversational language, 
+        without needing to learn complex programming languages or syntax.
       </>
     ),
   },
@@ -18,18 +18,18 @@ const FeatureList = [
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        The field of generative AI is rapidly evolving, and it is important to remain focused on continuous improvement and innovation. 
+        This includes investing in research, fostering collaboration, and encouraging diversity of perspectives and approaches.
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'Accessibility',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+      Cloud-based models can be accessed from virtually any device with an internet connection, 
+      making the technology widely available.
       </>
     ),
   },

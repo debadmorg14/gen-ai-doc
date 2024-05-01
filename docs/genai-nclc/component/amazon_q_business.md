@@ -3,7 +3,17 @@ sidebar_position: 1
 ---
 # Amazon Q Business
 
-## Custom Web Experience with Amazon Q Business
+[Amazon Q Business](https://aws.amazon.com/q/business/) can be tailored to your business by connecting it to company data, information, and systems, made simple with more than 40 built-in connectors. Business users—like marketers, project and program managers, and sales representatives, among others—can have tailored conversations, solve problems, generate content, take actions, and more. Amazon Q Business is aware of which systems they can access, so they can ask detailed, nuanced questions and get tailored results that include only information they are authorized to see.
+
+Amazon Q Business offers over 40 built-in connectors to popular enterprise applications and document repositories, including Amazon Simple Storage Service (Amazon S3), Salesforce, Google Drive, Microsoft 365, ServiceNow, Gmail, Slack, Atlassian, and Zendesk. Bring actionable insights to your employees in one unified experience.
+
+Architetcure : 
+![arch](./img/amazonq-architecture.jpg)
+
+The below link provides step  by step guide to set up Amazon Q business application
+[Amazon Q Business workshop](https://catalog.workshops.aws/amazon-q-business/en-US/100-introduction)
+
+## Custom Web Experience with Amazon Q Business using Q SDK
 
 Customers often want the ability to integrate custom functionalities into the Amazon Q user interface, such as handling feedback, using corporate colors and templates, custom login, and reducing context switching by integrating the user interface into a single platform. The code repo will show how to use Amazon Cognito for user authentication and use Amazon Q SDK to invoke chatbot application programmatically
 

@@ -1,5 +1,5 @@
 {
-  "label": "Amazon Bedrock",
+  "label": "Tools To Access LLM",
   "position": 3,
   "link": {
     "type": "generated-index"
