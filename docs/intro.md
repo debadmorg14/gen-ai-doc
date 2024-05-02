@@ -74,7 +74,7 @@ This steps repat many a times so it gets more context.
 
 
 
-Step 4- **Output Projection** In this step we turn the computation back into a language. The output vector shown in the image which is a final layer of multi headed attention layer, multipiled by an embedding matrix , The result of this multiplication is interprted as a score for each word in the model's vocabulary . Then softmax layer then turn those scores into probabilities(all positive, sum up to 10.0)
+Step 4- **Output Projection** In this step we turn the computation back into a language. The output vector shown in the image which is a final layer of multi headed attention layer, multipiled by an embedding matrix , The result of this multiplication is interprted as a score for each word in the model's vocabulary . Then softmax layer then turn those scores into probabilities(all positive, sum up to 1.0)
 ![softmax](./img/softmax.png)
 
 
