@@ -1,6 +1,6 @@
 ---
-slug: first-blog-post
-title: First Blog Post
+slug: Data Governance
+title: The Role of Data Catalog in Data Platform
 authors:
   name: Deba 
   title: Deploy Datahub in AWS
@@ -8,17 +8,24 @@ authors:
   image_url: https://github.com/mohade09.png
 tags: [data, datahub]
 ---
-## [Deploy Datahub in AWS](https://aws.amazon.com/blogs/big-data/part-1-deploy-datahub-using-aws-managed-services-and-ingest-metadata-from-aws-glue-and-amazon-redshift/)
+## [Open Source Data catalog with Datahub in AWS](https://aws.amazon.com/blogs/big-data/part-1-deploy-datahub-using-aws-managed-services-and-ingest-metadata-from-aws-glue-and-amazon-redshift/)
 Many organizations are establishing enterprise data warehouses, data lakes, or a modern data architecture on AWS to build data-driven products. As the organization grows, the number of publishers and subscribers to data and the volume of data keeps increasing. Additionally, different varieties of datasets are introduced (structured, semistructured, and unstructured). This can lead to metadata management issues, and the following questions:
 
 “Can I trust this data?”
+
 “Where does this data (lineage) come from?”
+
 “How accurate is this data?”
 “What does this column mean in my business terminology?”
+
 “Who is the owner of this data?”
+
 “When was the data last refreshed?”
+
 “How can I classify the data (PII, non-PII, and so on) and build data governance?”
+
 Metadata conveys both technical and business context to help you understand your data better and use it appropriately. It provides two primary types of information about data assets:
+
 
 Technical metadata – Information about the structure of the data, such as schema and how the data is populated
 Business metadata – Information in business terms, such as table and column description, owner, and data profile
