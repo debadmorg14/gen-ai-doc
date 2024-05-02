@@ -75,7 +75,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/my_project_social.jpg',
+      image: 'img/my_project_social.png',
       navbar: {
         title: 'Gen AI Developer Guide',
         logo: {
